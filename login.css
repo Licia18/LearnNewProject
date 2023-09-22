@@ -1,0 +1,348 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    background-image: url(barbie.png);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+}
+
+.menu-logout{
+
+    border: none;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: palevioletred;
+    color: wheat;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 85px;
+    margin-right: 165px;
+}
+
+
+#loginbox {
+    width: 200%;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f0f0;
+    background-image: url(lipstik.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    height: 25%;
+}
+
+.container {
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: deeppink;
+}
+
+.placeholder {
+    width: 83%;
+    color: gray;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+#tombolLogin {
+    width: 25%;
+    color: deeppink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tombolRegister {
+    width: 25%;
+    color: deeppink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* STYLING FOR HOME PAGE */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    background-image: url(barbie.png);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: deeppink;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    display: block;
+    text-align: center;
+}
+
+#judul {
+    font-family: "Exo 2", sans-serif;
+    order: 2;
+    color: #fde9ff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: clamp(3rem, 10vw, 6rem);
+    line-height: 0.75em;
+    text-align: center;
+    text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
+    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
+    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
+    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
+    9px 7px 1px #4af7ff;
+    margin-bottom: 200px;
+    
+}
+
+.card {
+    border: 1px solid black;
+    width: 140px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5%;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.card img{
+    height: 150px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: palevioletred;
+    cursor: pointer;
+}
+
+
+/* STYLING FOR DIARY PAGE */
+
+body {
+    background-color: #ff4aae5e;
+    width: 100%;
+    height: 100%;
+}
+
+#diaryPaper{
+    position: relative;
+    width: 370px;
+    height: 530px;
+    background: url('kertas\ diary.png') center/cover; /* Ganti dengan URL gambar Anda */
+    text-align: center;
+    margin-bottom: 308px
+}
+
+.date{
+    background: transparent;
+    width: 91px;
+    height: 18px;
+    margin-left: 64%;
+    margin-top: 40px;
+}
+
+.inputDiary{
+    background: transparent;
+    width: 312px;
+    height: 357px;
+    margin-left: 4%;
+    margin-top: -3px;
+}
+
+.p1{
+    background: transparent;
+    width: 251px;
+    height: 18px;
+    margin-left: 19%;
+    margin-top: 14px;
+}
+
+#buttonAddDiary {
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: palevioletred;
+    color: wheat;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 85px;
+}
+
+#buttonAddDiary:hover {
+    background-color:  deeppink;
+    color: white;
+}
+
+.buttonBack {
+    border: none;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: palevioletred;
+    color: wheat;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 85px;
+    margin-right: 165px;
+}
+
+.buttonBack:hover {
+    background-color:  deeppink;
+    color: white;
+}
+
+
+/* STYLING FOR FORM DIARY PAGE */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff4aae5e;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: fantasy;
+    color: deeppink;
+}
+
+#diaryform {
+    width: 636px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    height: 507px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#Judul {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#Description {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 237px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: deeppink;
+}
+
+
+input[type="button"]:hover {
+    background-color: deeppink;
+}
+
+#buttonContainer{
+    display: flex;
+    justify-content: space-between
+}
+
+#saveDiary{
+    border: none;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: palevioletred;
+    color: wheat;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 85px;
+}
+
+.buttonBackToDiaryPaper{
+    border: none;
+    padding: 10px 22px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: palevioletred;
+    color: wheat;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 85px;
+}
+
+/* STYLING FOR SELFIE PAGE */
+#logo-Selfie {
+    width: 57%;
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: auto;
+      margin-bottom: 40%;
+}
+
+
+#egg {
+      display: block;
+      width: 170%;
+      height: 460px;
+      background-color: white;
+      border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    }

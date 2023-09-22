@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="login.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+</head>
+<body>
+    <div class="container">
+        <section id="loginbox">
+            <div style="width: 58%;">
+                <h1>>> Login Admin </h1>
+                <form style="width: 100%;" id="login">
+                    <input id="userIdLogin" class="placeholder" type="userid" placeholder="Masukkan User ID di sini"></br></br>
+                    <input id="passwordLogin" class="placeholder" type="password" placeholder="Masukkan Password di sini"></br></br>
+                    <button class="tombolRegister" type="button" value="Register">Register</button>
+                    <button id="tombolLogin" type="submit">Login</button>
+                    <!-- </button> -->
+                </form> 
+            </div>
+        </section>
+    </div>
+
+    <!-- Home Page -->
+    <section id="content">
+        <div>
+            <nav>
+                <button class="menu-logout">Logout</button>
+            </nav>
+        </div>
+        <div>
+            <h1 id="judul" >PICK YOUR BARBIE !</h1>
+        </div>
+        <div class="card" id="barbieDiary">
+            <h1>Barbie Diary</h1>
+            <img src="Barbie Diaryy.png" alt="Diary">
+        </div>
+        <div class="card" id="selfie">
+            <h1>Barbie Selfie</h1>
+            <img src="Barbie Selfie.png" alt="selfie">
+        </div>
+        <div class="card" id="movies">
+            <h1>movies for Barbie</h1>
+            <img src="Barbie Music.png" alt="movies">
+        </div>
+        <div class="card">
+            <h1>Password Reminder</h1>
+            <img src="Barbie Password Reminder.png" alt="password">
+        </div>
+        <div class="card">
+            <h1>Barbie Recipe</h1>
+            <img src="Barbie Recipe.png" alt="Recipe">
+        </div>
+    </section>
+
+    <!-- Diary Page -->
+    <div id="diaryPaper">
+        <textarea class="date"></textarea>
+        <textarea class="p1"></textarea>
+        <textarea class="inputDiary"></textarea>
+        <button  class="buttonBack">Back</button>
+        <button  id="buttonAddDiary">Create</button>
+     </div>
+
+     <!-- Diary Page -->
+     <div id = "containerDiaryForm">
+   
+         <h1>Create Your Own Diary</h1>
+        <form id="diaryform">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br><br>
+    
+            <label for="Judul">Label:</label>
+            <input type="text" id="Judul" name="Judul"><br><br>
+    
+            <label for="Description">Description:</label><br>
+            <input  type="text" id="Description" name="Description"></textarea><br><br>
+            <div id="buttonContainer">
+                <input style="margin-right: 0px;" class="buttonBackToDiaryPaper" type="button" value="Back">
+                <input id="saveDiary"  type="submit" type="button" value="Save">
+                <button style="margin-right: 0px;" class="menu-logout">Logout</button>
+            </div>
+        </form>
+     </div>
+
+     <!-- Selfie Page -->
+     <section>
+         <div id="barbieSelfie">
+            <img id="logo-Selfie" src="logo-Selfie.png" alt="selfie generator">
+         </div>
+         <div id="egg">
+         </div>
+     </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="login.js"></script>
+</body>
+</html>
